@@ -1,0 +1,12 @@
+2018-07-25 10:45:27 [@srv-glpi]
+Interno #1: Executar createinquest
+2018-07-25 11:18:49 [2@srv-glpi]
+Interno #1: Executar watcher
+2018-07-25 11:27:53 [2@srv-glpi]
+Interno #1: Executar ticketrecurrent
+2018-07-25 11:42:11 [2@srv-glpi]
+Interno #1: Executar planningrecall
+2018-07-25 11:59:35 [2@srv-glpi]
+Interno #1: Executar queuednotification
+2018-07-25 12:06:00 [2@srv-glpi]
+Interno #1: Executar queuednotificationclean

@@ -1,0 +1,15 @@
+Versão 0.9.3:
+
+- GLPI 9.2.x e 9.3
+- Correção dos gráficos por técnico;
+- Correção dos gráficos por requerente;
+- Correção de bugs diversos;
+
+
+Version 0.9.3:
+
+- GLPI 9.2.x and 9.3;
+- Fix charts by technician;
+- Fix charts by requester;
+- Fix minor bugs;
+

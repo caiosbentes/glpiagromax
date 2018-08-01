@@ -1,0 +1,574 @@
+Test
+[2018-07-25 10:45:27] glpiphplog.DEBUG: Config::getCache() in /var/www/html/inc/config.class.php line 2931
+CACHE cache_db Zend\Cache\Storage\Adapter\Apcu  {"user":"@srv-glpi"} 
+[2018-07-25 10:45:27] glpiphplog.DEBUG: Config::getCache() in /var/www/html/inc/config.class.php line 2931
+CACHE cache_trans Zend\Cache\Storage\Adapter\Apcu  {"user":"@srv-glpi","mem_usage":"0.007\", 0.91Mio)"} 
+[2018-07-25 10:45:27] glpiphplog.DEBUG: Config::getCache() in /var/www/html/inc/config.class.php line 2931
+CACHE cache_db Zend\Cache\Storage\Adapter\Apcu  {"user":"@srv-glpi"} 
+[2018-07-25 10:45:27] glpiphplog.DEBUG: Config::getCache() in /var/www/html/inc/config.class.php line 2931
+CACHE cache_trans Zend\Cache\Storage\Adapter\Apcu  {"user":"@srv-glpi","mem_usage":"0.006\", 0.84Mio)"} 
+[2018-07-25 10:45:33] glpiphplog.DEBUG: Config::getCache() in /var/www/html/inc/config.class.php line 2931
+CACHE cache_db Zend\Cache\Storage\Adapter\Apcu  {"user":"@srv-glpi"} 
+[2018-07-25 10:45:33] glpiphplog.DEBUG: Config::getCache() in /var/www/html/inc/config.class.php line 2931
+CACHE cache_trans Zend\Cache\Storage\Adapter\Apcu  {"user":"@srv-glpi","mem_usage":"0.006\", 0.85Mio)"} 
+[2018-07-25 10:45:33] glpiphplog.DEBUG: Config::getCache() in /var/www/html/inc/config.class.php line 2931
+CACHE cache_trans Zend\Cache\Storage\Adapter\Apcu  {"user":"2@srv-glpi","mem_usage":"0.310\", 1.54Mio)"} 
+[2018-07-25 10:45:56] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Warning(2): rename(/var/www/html/script.js,/var/www/html/script.js.bak): No such file or directory
+  Backtrace :
+  :                                                  
+  plugins/mod/install.php:18                         rename()
+  plugins/mod/hook.php:5                             include()
+  inc/plugin.class.php:701                           plugin_mod_install()
+  front/plugin.form.php:47                           Plugin->install()
+  {"user":"2@srv-glpi","mem_usage":"0.002\", 1.30Mio)"} 
+[2018-07-25 10:45:56] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Warning(2): rename(/var/www/html/pics/logo-glpi-login.png,/var/www/html/pics/logo-glpi-login.png.bak): No such file or directory
+  Backtrace :
+  :                                                  
+  plugins/mod/install.php:31                         rename()
+  plugins/mod/hook.php:5                             include()
+  inc/plugin.class.php:701                           plugin_mod_install()
+  front/plugin.form.php:47                           Plugin->install()
+  {"user":"2@srv-glpi","mem_usage":"0.018\", 1.30Mio)"} 
+[2018-07-25 12:00:57] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: arr_monthsn
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:112 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+  {"user":"2@srv-glpi","mem_usage":"0.006\", 2.17Mio)"} 
+[2018-07-25 12:00:57] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Warning(2): array_keys() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:112 array_keys()
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.17Mio)"} 
+[2018-07-25 12:00:57] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: arr_monthsn
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:185 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.19Mio)"} 
+[2018-07-25 12:00:57] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Warning(2): array_keys() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:185 array_keys()
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.19Mio)"} 
+[2018-07-25 12:00:57] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:250 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.21Mio)"} 
+[2018-07-25 12:00:57] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:250 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.21Mio)"} 
+[2018-07-25 12:00:57] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...rd/front/graphs/inc/grafpie_stat_tec.inc.php:77 
+  plugins/dashboard/front/graphs/graf_tech.php:418   include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.34Mio)"} 
+[2018-07-25 12:00:57] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...rd/front/graphs/inc/grafpie_stat_tec.inc.php:78 
+  plugins/dashboard/front/graphs/graf_tech.php:418   include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.34Mio)"} 
+[2018-07-25 12:00:57] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...d/front/graphs/inc/grafpie_tipo_tec.inc.php:119 
+  plugins/dashboard/front/graphs/graf_tech.php:422   include()
+  {"user":"2@srv-glpi","mem_usage":"0.002\", 2.36Mio)"} 
+[2018-07-25 12:00:57] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...d/front/graphs/inc/grafpie_tipo_tec.inc.php:120 
+  plugins/dashboard/front/graphs/graf_tech.php:422   include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.36Mio)"} 
+[2018-07-25 12:00:57] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...d/front/graphs/inc/grafpie_prio_tech.inc.php:98 
+  plugins/dashboard/front/graphs/graf_tech.php:434   include()
+  {"user":"2@srv-glpi","mem_usage":"0.006\", 2.47Mio)"} 
+[2018-07-25 12:00:57] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...d/front/graphs/inc/grafpie_prio_tech.inc.php:99 
+  plugins/dashboard/front/graphs/graf_tech.php:434   include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.47Mio)"} 
+[2018-07-25 12:02:46] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Warning(2): Invalid argument supplied for foreach()
+  Backtrace :
+  plugins/dashboard/front/config.php:107             
+  {"user":"2@srv-glpi","mem_usage":"0.003\", 2.04Mio)"} 
+[2018-07-25 12:02:46] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Warning(2): Invalid argument supplied for foreach()
+  Backtrace :
+  plugins/dashboard/front/config.php:318             
+  {"user":"2@srv-glpi","mem_usage":"0.002\", 2.11Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/comp_os.php:82      
+  plugins/dashboard/front/assets/assets.php:300      include()
+  {"user":"2@srv-glpi","mem_usage":"0.008\", 2.07Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/comp_os.php:83      
+  plugins/dashboard/front/assets/assets.php:300      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.07Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/comp_cat.php:67     
+  plugins/dashboard/front/assets/assets.php:304      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/comp_cat.php:68     
+  plugins/dashboard/front/assets/assets.php:304      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/mon_manuf.php:80    
+  plugins/dashboard/front/assets/assets.php:319      include()
+  {"user":"2@srv-glpi","mem_usage":"0.004\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/mon_manuf.php:81    
+  plugins/dashboard/front/assets/assets.php:319      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/mon_model.php:79    
+  plugins/dashboard/front/assets/assets.php:322      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/mon_model.php:80    
+  plugins/dashboard/front/assets/assets.php:322      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ins/dashboard/front/assets/printer_manuf.php:85 
+  plugins/dashboard/front/assets/assets.php:328      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ins/dashboard/front/assets/printer_manuf.php:86 
+  plugins/dashboard/front/assets/assets.php:328      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ins/dashboard/front/assets/printer_model.php:84 
+  plugins/dashboard/front/assets/assets.php:331      include()
+  {"user":"2@srv-glpi","mem_usage":"0.002\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ins/dashboard/front/assets/printer_model.php:85 
+  plugins/dashboard/front/assets/assets.php:331      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/net_manuf.php:82    
+  plugins/dashboard/front/assets/assets.php:338      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/net_manuf.php:83    
+  plugins/dashboard/front/assets/assets.php:338      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/net_model.php:81    
+  plugins/dashboard/front/assets/assets.php:341      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/net_model.php:82    
+  plugins/dashboard/front/assets/assets.php:341      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/phone_manuf.php:84  
+  plugins/dashboard/front/assets/assets.php:347      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/phone_manuf.php:85  
+  plugins/dashboard/front/assets/assets.php:347      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/phone_model.php:84  
+  plugins/dashboard/front/assets/assets.php:350      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.09Mio)"} 
+[2018-07-25 12:02:52] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/phone_model.php:85  
+  plugins/dashboard/front/assets/assets.php:350      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 12:03:03] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: th_due
+  Backtrace :
+  plugins/dashboard/front/tickets/chamados.php:346   
+  {"user":"2@srv-glpi","mem_usage":"0.008\", 2.22Mio)"} 
+[2018-07-25 14:53:39] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: th_due
+  Backtrace :
+  plugins/dashboard/front/tickets/chamados.php:346   
+  {"user":"2@srv-glpi","mem_usage":"0.009\", 2.22Mio)"} 
+Test
+Test
+Test
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/comp_os.php:82      
+  plugins/dashboard/front/assets/assets.php:300      include()
+  {"user":"2@srv-glpi","mem_usage":"0.006\", 2.07Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/comp_os.php:83      
+  plugins/dashboard/front/assets/assets.php:300      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.08Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/comp_cat.php:67     
+  plugins/dashboard/front/assets/assets.php:304      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.09Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/comp_cat.php:68     
+  plugins/dashboard/front/assets/assets.php:304      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/mon_manuf.php:80    
+  plugins/dashboard/front/assets/assets.php:319      include()
+  {"user":"2@srv-glpi","mem_usage":"0.002\", 2.09Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/mon_manuf.php:81    
+  plugins/dashboard/front/assets/assets.php:319      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/mon_model.php:79    
+  plugins/dashboard/front/assets/assets.php:322      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.09Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/mon_model.php:80    
+  plugins/dashboard/front/assets/assets.php:322      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ins/dashboard/front/assets/printer_manuf.php:85 
+  plugins/dashboard/front/assets/assets.php:328      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.09Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ins/dashboard/front/assets/printer_manuf.php:86 
+  plugins/dashboard/front/assets/assets.php:328      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ins/dashboard/front/assets/printer_model.php:84 
+  plugins/dashboard/front/assets/assets.php:331      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.09Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ins/dashboard/front/assets/printer_model.php:85 
+  plugins/dashboard/front/assets/assets.php:331      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/net_manuf.php:82    
+  plugins/dashboard/front/assets/assets.php:338      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.10Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/net_manuf.php:83    
+  plugins/dashboard/front/assets/assets.php:338      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.10Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/net_model.php:81    
+  plugins/dashboard/front/assets/assets.php:341      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.10Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/net_model.php:82    
+  plugins/dashboard/front/assets/assets.php:341      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.10Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/phone_manuf.php:84  
+  plugins/dashboard/front/assets/assets.php:347      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.10Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/phone_manuf.php:85  
+  plugins/dashboard/front/assets/assets.php:347      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.10Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/phone_model.php:84  
+  plugins/dashboard/front/assets/assets.php:350      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.10Mio)"} 
+[2018-07-25 15:55:49] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/phone_model.php:85  
+  plugins/dashboard/front/assets/assets.php:350      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.10Mio)"} 
+[2018-07-25 15:56:01] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: th_due
+  Backtrace :
+  plugins/dashboard/front/tickets/chamados.php:346   
+  {"user":"2@srv-glpi","mem_usage":"0.006\", 2.23Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/comp_os.php:82      
+  plugins/dashboard/front/assets/assets.php:300      include()
+  {"user":"2@srv-glpi","mem_usage":"0.003\", 2.07Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/comp_os.php:83      
+  plugins/dashboard/front/assets/assets.php:300      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.07Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/comp_cat.php:67     
+  plugins/dashboard/front/assets/assets.php:304      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/comp_cat.php:68     
+  plugins/dashboard/front/assets/assets.php:304      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/mon_manuf.php:80    
+  plugins/dashboard/front/assets/assets.php:319      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/mon_manuf.php:81    
+  plugins/dashboard/front/assets/assets.php:319      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/mon_model.php:79    
+  plugins/dashboard/front/assets/assets.php:322      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/mon_model.php:80    
+  plugins/dashboard/front/assets/assets.php:322      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ins/dashboard/front/assets/printer_manuf.php:85 
+  plugins/dashboard/front/assets/assets.php:328      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ins/dashboard/front/assets/printer_manuf.php:86 
+  plugins/dashboard/front/assets/assets.php:328      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ins/dashboard/front/assets/printer_model.php:84 
+  plugins/dashboard/front/assets/assets.php:331      include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ins/dashboard/front/assets/printer_model.php:85 
+  plugins/dashboard/front/assets/assets.php:331      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/net_manuf.php:82    
+  plugins/dashboard/front/assets/assets.php:338      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/net_manuf.php:83    
+  plugins/dashboard/front/assets/assets.php:338      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/net_model.php:81    
+  plugins/dashboard/front/assets/assets.php:341      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/net_model.php:82    
+  plugins/dashboard/front/assets/assets.php:341      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/phone_manuf.php:84  
+  plugins/dashboard/front/assets/assets.php:347      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/phone_manuf.php:85  
+  plugins/dashboard/front/assets/assets.php:347      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/phone_model.php:84  
+  plugins/dashboard/front/assets/assets.php:350      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 15:56:04] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  plugins/dashboard/front/assets/phone_model.php:85  
+  plugins/dashboard/front/assets/assets.php:350      include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.09Mio)"} 
+[2018-07-25 19:47:05] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: arr_monthsn
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:112 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+  {"user":"2@srv-glpi","mem_usage":"0.005\", 2.17Mio)"} 
+[2018-07-25 19:47:05] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Warning(2): array_keys() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:112 array_keys()
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.17Mio)"} 
+[2018-07-25 19:47:05] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: arr_monthsn
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:185 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.19Mio)"} 
+[2018-07-25 19:47:05] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Warning(2): array_keys() expects parameter 1 to be array, null given
+  Backtrace :
+  :                                                  
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:185 array_keys()
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.19Mio)"} 
+[2018-07-25 19:47:05] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:250 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.21Mio)"} 
+[2018-07-25 19:47:05] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...ard/front/graphs/inc/graflinhas_tec.inc.php:250 
+  plugins/dashboard/front/graphs/graf_tech.php:414   include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.21Mio)"} 
+[2018-07-25 19:47:05] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...rd/front/graphs/inc/grafpie_stat_tec.inc.php:77 
+  plugins/dashboard/front/graphs/graf_tech.php:418   include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.34Mio)"} 
+[2018-07-25 19:47:05] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...rd/front/graphs/inc/grafpie_stat_tec.inc.php:78 
+  plugins/dashboard/front/graphs/graf_tech.php:418   include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.34Mio)"} 
+[2018-07-25 19:47:05] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...d/front/graphs/inc/grafpie_tipo_tec.inc.php:119 
+  plugins/dashboard/front/graphs/graf_tech.php:422   include()
+  {"user":"2@srv-glpi","mem_usage":"0.001\", 2.36Mio)"} 
+[2018-07-25 19:47:05] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...d/front/graphs/inc/grafpie_tipo_tec.inc.php:120 
+  plugins/dashboard/front/graphs/graf_tech.php:422   include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.36Mio)"} 
+[2018-07-25 19:47:05] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...d/front/graphs/inc/grafpie_prio_tech.inc.php:98 
+  plugins/dashboard/front/graphs/graf_tech.php:434   include()
+  {"user":"2@srv-glpi","mem_usage":"0.003\", 2.48Mio)"} 
+[2018-07-25 19:47:05] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined offset: 0
+  Backtrace :
+  ...d/front/graphs/inc/grafpie_prio_tech.inc.php:99 
+  plugins/dashboard/front/graphs/graf_tech.php:434   include()
+  {"user":"2@srv-glpi","mem_usage":"0.000\", 2.48Mio)"} 
+[2018-07-25 19:47:06] glpiphplog.ERROR: Toolbox::userErrorHandlerNormal() in /var/www/html/inc/toolbox.class.php line 657
+  *** PHP Notice(8): Undefined variable: th_due
+  Backtrace :
+  plugins/dashboard/front/tickets/chamados.php:346   
+  {"user":"2@srv-glpi","mem_usage":"0.009\", 2.22Mio)"} 
