@@ -40,3 +40,13 @@ apt-get install -y 	ca-certificates \
 				php7.0-xmlrpc \
 				php-cas \
 				mariadb-server
+
+chown -R www-data:www-data /var/www/html/
+chmod -Rf 775 /var/www/html
+read -sp "Qual a senha do root do banco de dados? " ROOTDBPWD
+echo
+debconf-set-selections <<< "mariadb-server-10.0 mariadb-server/root_password password $ROOTDBPWD"
+debconf-set-selections <<< "mariadb-server-10.0 mariadb-server/root_password_again password $ROOTDBPWD"
+debconf-set-selections <<< "mariadb-server-10.0 mariadb-server/oneway_migration boolean true"
+
+
